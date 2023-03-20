@@ -1,24 +1,62 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<br />
+<div align="center">
+  <h3 align="center">Phase-4-Code-Challenge</h3>
+  <p align="center">
+    A 'mini' Rails application that implements associations.
+    <br />
+    <a href="https://github.com/Marylucy123450/Phase-4-Code-Challenge-Pizzas"><strong>Explore the repository »</strong></a>
+    <br />
+  </p>
+</div>
 
-Things you may want to cover:
+<!-- ABOUT THE PROJECT -->
 
-* Ruby version
+## About The Project
 
-* System dependencies
+This is a RESTful API for tracking pizzas restaurants built with Ruby on Rails.In this project, users can consume the API to look for restaurants with the best pizza offerings at pocket friendly prices.
 
-* Configuration
+ ### The project was built with:
+ * Ruby v3.1.4
+ * Ruby on Rails v7.0.4
 
-* Database creation
+<!-- GETTING STARTED -->
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+### Prerequisites
+Ruby: 2.7.4 
+Rails: 7.0.4
 
-* How to run the test suite
+## Setup
+~~~bash
+$ git@github.com:https://github.com/Marylucy123450/Phase-4-Code-Challenge-Pizzas
+$ cd Phase-4-Code-Challenge-Pizzas
+~~~
 
-* Services (job queues, cache servers, search engines, etc.)
+Install gems with:
+```
+bundle install
+```
+Setup database with:
+> make sure you have postgresql installed and running on your system
+```
+   rails db:create
+   rails db:migrate
+   rails db:seed
+```
+### Usage
+Start server with:
+```
+    rails server or rails s
+```
+Open `http://localhost:3000/` in your browser.
 
-* Deployment instructions
+<!-- LICENSE -->
+## License
 
-* ...
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<!-- CONTACT -->
+## Contact
+Marylucy Atieno  - [marylucyatienoomenda@gmail.com](email)
